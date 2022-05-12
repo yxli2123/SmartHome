@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_off.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_off.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_bluetooth.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_bluetooth.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_bluetooth_connected.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_bluetooth_connected.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_bluetooth_search.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_bluetooth_search.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_unnormal.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_unnormal.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_on.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-xhdpi\\ic_on.png"
+    }
+]

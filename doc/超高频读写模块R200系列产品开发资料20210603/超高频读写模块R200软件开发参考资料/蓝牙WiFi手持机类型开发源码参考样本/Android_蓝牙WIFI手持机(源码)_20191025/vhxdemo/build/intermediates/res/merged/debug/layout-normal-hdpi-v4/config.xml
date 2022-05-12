@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_config"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/radio_autolink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:text="@string/autolink"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <CheckBox
+            android:visibility="invisible"
+            android:id="@+id/radio_detectsound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="52dp"
+            android:layout_toRightOf="@+id/radio_autolink"
+            android:text="@string/detectsound"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!--android:text="@string/skipname"-->
+        <CheckBox
+            android:id="@+id/radio_skipname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radio_autolink"
+            android:layout_below="@+id/radio_autolink"
+            android:text="@string/detectsound"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/btn_beepon"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_toRightOf="@+id/radio_skipname"
+            android:layout_below="@+id/radio_autolink"
+            android:text="@string/beepon" />
+
+        <Button
+            android:id="@+id/btn_beepclose"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_toRightOf="@+id/btn_beepon"
+            android:layout_below="@+id/radio_autolink"
+            android:text="@string/beepclose" />
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/radio_singletag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radio_skipname"
+            android:layout_alignBottom="@+id/radio_skipname"
+            android:layout_alignLeft="@+id/radio_detectsound"
+            android:text="@string/singletag"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/radio_chechshock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radio_skipname"
+            android:layout_below="@id/radio_skipname"
+            android:text="@string/checkshock"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/txt_queryparamtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radio_chechshock"
+            android:layout_below="@+id/radio_skipname"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/queryparam"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0000ff" />
+
+        <Button
+            android:id="@+id/btn_poweronreadcard"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_toRightOf="@+id/txt_queryparamtitle"
+            android:layout_below="@+id/btn_beepon"
+            android:text="@string/poweronreadcard" />
+
+        <Button
+            android:id="@+id/btn_poweroffreadcard"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_toRightOf="@+id/btn_poweronreadcard"
+            android:layout_below="@+id/btn_beepclose"
+            android:text="@string/poweroffreadcard" />
+
+        <Spinner
+            android:id="@+id/spinner_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_queryparamtitle"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/txt_detect"
+            android:entries="@array/frequency" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_getfrequency"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_below="@+id/btn_poweroffreadcard"
+            android:layout_toRightOf="@+id/btn_setpower"
+            android:text="@string/getfrequency" />
+
+        <Button
+
+            android:id="@+id/btn_setfrequency"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_below="@+id/btn_poweroffreadcard"
+            android:layout_toLeftOf="@+id/btn_getpower"
+            android:text="@string/setfrequency" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txt_session"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_queryparamtitle"
+            android:layout_below="@id/txt_queryparamtitle"
+            android:layout_marginBottom="3dp"
+            android:text="@string/session"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/wrap_spins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_session"
+            android:layout_below="@id/txt_session"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:visibility="gone"
+                android:id="@+id/spinner_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/txt_session"
+                android:layout_weight="1"
+                android:entries="@array/sessionKV" />
+
+            <Spinner
+                android:visibility="gone"
+                android:id="@+id/spinner_ab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/spinner_s"
+                android:layout_weight="1"
+                android:entries="@array/AB" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/wrap_q"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/txt_q"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/txt_Q_title"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <Spinner
+                    android:visibility="gone"
+                    android:id="@+id/spinner_q"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_toRightOf="@id/txt_q"
+                    android:entries="@array/Q" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/wrap_timeout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wrap_spins"
+            android:layout_below="@id/wrap_spins"
+            android:layout_marginBottom="3dp" >
+
+            <TextView
+                android:id="@+id/txt_timeout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/timeout"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/edit_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/txt_timeout"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@id/txt_timeout"
+                android:background="@drawable/bg_edittext"
+                android:hint="@string/timeout"
+                android:inputType="number" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/text_txpower"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radio_skipname"
+            android:layout_below="@+id/spinner_frequency"
+            android:text="@string/txpower" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_txpower"
+            android:layout_below="@+id/text_txpower"
+            android:layout_margin="3dp"
+            android:progress="35"
+            android:max="35" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_txpower"
+            android:layout_below="@+id/btn_getfrequency"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:text="dBm" />
+
+        <TextView
+            android:id="@+id/text_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_getfrequency"
+            android:layout_toLeftOf="@+id/textView2"
+            android:text="26" />
+
+        <Button
+            android:id="@+id/btn_getpower"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+            android:layout_below="@+id/seekBar1"
+            android:layout_toLeftOf="@+id/textView2"
+            android:text="@string/getpower" />
+
+        <Button
+            android:id="@+id/btn_setpower"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inventory_btn_press"
+
+
+            android:layout_below="@+id/seekBar1"
+            android:layout_toLeftOf="@+id/btn_getpower"
+            android:text="@string/setpower" />
+
+        <TextView
+            android:id="@+id/text_sofe_version_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/seekBar1"
+            android:layout_below="@+id/seekBar1"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/softversion_title" />
+
+        <TextView
+            android:id="@+id/text_hd_version_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_sofe_version_title"
+            android:layout_below="@+id/text_sofe_version_title"
+            android:layout_marginRight="3dp"
+            android:text="@string/hdversion" />
+
+        <TextView
+            android:id="@+id/text_sw_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_sofe_version_title"
+            android:layout_below="@+id/seekBar1"
+            android:layout_toRightOf="@id/text_sofe_version_title" />
+
+        <TextView
+            android:id="@+id/text_hd_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_hd_version_title"
+            android:layout_below="@+id/text_sw_version"
+            android:layout_toRightOf="@id/text_hd_version_title" />
+
+        <RadioGroup
+            android:id="@+id/group_lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_hd_version_title"
+            android:layout_below="@id/text_hd_version"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_eng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/radio_lang_eng" />
+
+            <RadioButton
+                android:id="@+id/radio_ch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_lang_chinese" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/radio_check_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/group_lang"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/group_lang"
+            android:checked="true"
+            android:text="@string/radio_check_update"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/text_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ver"
+            android:layout_above="@+id/text_hd_version"
+            android:layout_alignLeft="@+id/editTextip"
+            android:layout_alignStart="@+id/editTextip" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group_lang"
+            android:layout_toRightOf="@+id/group_lang"
+            android:text="@string/checkTest" />
+
+        <TextView
+            android:id="@+id/textViewip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_alignLeft="@+id/group_lang"
+            android:layout_alignRight="@+id/text_txpower"
+            android:layout_below="@+id/radio_check_update"
+            android:text="IP:" />
+
+        <EditText
+            android:id="@+id/editTextip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_alignBottom="@+id/textViewip"
+            android:layout_toLeftOf="@+id/textView2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textViewport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/txt_session"
+            android:text="Port:" />
+
+        <EditText
+            android:id="@+id/editTextport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/editTextip"
+            android:layout_below="@+id/editTextip"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+
+        <RadioGroup
+            android:id="@+id/group_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/radio_autolink"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButtontypea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/radioButtontypeastr"
+                android:layout_above="@+id/radio_singletag"
+                android:layout_alignRight="@+id/radio_singletag"
+                android:layout_alignEnd="@+id/radio_singletag" />
+
+            <RadioButton
+                android:id="@+id/radioButtontypeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtontypebstr"
+                android:layout_alignTop="@+id/radioButtontypea"
+                android:layout_toLeftOf="@+id/textView2"
+                android:layout_toStartOf="@+id/textView2" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>

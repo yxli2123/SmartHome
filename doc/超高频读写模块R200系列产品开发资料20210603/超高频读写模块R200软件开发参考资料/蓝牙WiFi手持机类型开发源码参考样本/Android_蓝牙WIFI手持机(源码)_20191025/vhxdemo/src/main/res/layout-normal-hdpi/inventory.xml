@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_inventory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/status" />
+
+    <Button
+        android:id="@+id/btn_inventory"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/include2"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/inventory_btn_press"
+        android:text="@string/inventory"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_inventory2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_inventory"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/inventory_btn_press"
+        android:text="@string/Single"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_inventory3"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_inventory2"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/inventory_btn_press"
+        android:text="@string/Get"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtxuhao"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include2"
+
+        android:layout_marginLeft="5dp"
+
+
+        android:text="0"
+        />
+
+    <TextView
+        android:id="@+id/txttotnum"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtxuhao"
+        android:layout_alignTop="@+id/txtxuhao"
+        android:layout_marginLeft="5dp"
+
+
+        android:text="0"
+
+        />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_beepon"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+
+        android:layout_toRightOf="@+id/txttotnum"
+        android:layout_alignTop="@+id/txttotnum"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/inventory_btn_press"
+        android:text="@string/Beep"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_beepclose"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+
+        android:layout_toRightOf="@+id/btn_beepon"
+        android:layout_alignTop="@+id/btn_beepon"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/inventory_btn_press"
+        android:text="@string/BeepClose"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txttotcom"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include2"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginLeft="5dp"
+        android:text="0"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/txtxxx"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtxuhao"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+
+        android:text=""
+        />
+
+    <ListView
+        android:id="@+id/list_rfid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/txtxxx"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" >
+
+    </ListView>
+
+
+
+</RelativeLayout>

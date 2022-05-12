@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Native_LibsAttendanceLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vhxdemo/libs/Native_LibsAttendanceLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

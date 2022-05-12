@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "com.vanch.vhxdemo"
+        minSdkVersion 8
+        targetSdkVersion 17
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/zmc']
+            jniLibs.srcDirs = ['libs'];
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+
+    // 将 .so 文件打包为 Native_Libs.jar 包文件
+    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
+        destinationDir file("$projectDir/libs")
+        baseName "Native_LibsAttendanceLib"
+        extension "jar"
+        from fileTree(dir: "libs", include: "**/*.so")
+        into "lib"
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn(nativeLibsToJar)
+    }
+
+}
+
+dependencies {
+    compile project(':eventBus')
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/Native_LibsAttendanceLib.jar') // 加载上方 .so 生成的该文件
+}

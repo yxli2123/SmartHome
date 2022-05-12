@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_bg.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\tab_bg.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\spinner_selector.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\tb.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\tb.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\stop_btn_press.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\stop_btn_press.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\bg_btn.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\input_bar_bg.9.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\input_bar_bg.9.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_background.9.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\edittext_background.9.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\btn_selector.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_normal.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\bg_edittext_normal.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_disable.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\bg_edittext_disable.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\color_tab_selected.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\color_tab_selected.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_selected.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\radio_selected.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_bg.9.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\txt_bg.9.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_focused.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\bg_edittext_focused.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\inventory_btn_press.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable\\inventory_btn_press.xml"
+    }
+]

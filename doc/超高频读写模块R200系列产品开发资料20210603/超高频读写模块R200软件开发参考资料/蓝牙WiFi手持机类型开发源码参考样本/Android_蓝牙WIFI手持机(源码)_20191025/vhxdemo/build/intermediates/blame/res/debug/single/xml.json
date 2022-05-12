@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\xml\\english.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\xml\\english.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\xml\\chinese.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\xml\\chinese.xml"
+    }
+]

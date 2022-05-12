@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Javab\project\androidstudio\vhxdemooutput\vhxdemo\build\intermediates\exploded-aar\vhxdemooutput\eventBus\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="621f1c4486d3a75827ac4020281839efee6400d1">
+        <dex dex="G:\Javab\project\androidstudio\vhxdemooutput\vhxdemo\build\intermediates\pre-dexed\release\vhxdemooutput-eventBus-unspecified_0f70f8097e402cfe4fc7f7844c19cb4708c69616.jar" />
+    </item>
+    <item
+        jar="G:\Android\sdl\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="G:\Javab\project\androidstudio\vhxdemooutput\vhxdemo\build\intermediates\pre-dexed\release\support-v4-19.1.0_d8cb13a1347dd27531b7b5a5441bd5e61b067937.jar" />
+    </item>
+
+</items>

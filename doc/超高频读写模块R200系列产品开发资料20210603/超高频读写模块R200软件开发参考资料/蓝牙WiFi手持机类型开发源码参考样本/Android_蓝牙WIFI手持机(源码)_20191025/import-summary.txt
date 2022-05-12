@@ -1,0 +1,274 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* build.gradle
+* eventBus\
+* eventBus\build.gradle
+* eventBus\src\
+* eventBus\src\main\
+* eventBus\src\main\AndroidManifest.xml
+* eventBus\src\main\java\
+* eventBus\src\main\java\de\
+* eventBus\src\main\java\de\greenrobot\
+* eventBus\src\main\java\de\greenrobot\event\
+* eventBus\src\main\java\de\greenrobot\event\AsyncPoster.java
+* eventBus\src\main\java\de\greenrobot\event\BackgroundPoster.java
+* eventBus\src\main\java\de\greenrobot\event\EventBus.java
+* eventBus\src\main\java\de\greenrobot\event\EventBusException.java
+* eventBus\src\main\java\de\greenrobot\event\HandlerPoster.java
+* eventBus\src\main\java\de\greenrobot\event\NoSubscriberEvent.java
+* eventBus\src\main\java\de\greenrobot\event\PendingPost.java
+* eventBus\src\main\java\de\greenrobot\event\PendingPostQueue.java
+* eventBus\src\main\java\de\greenrobot\event\SubscriberExceptionEvent.java
+* eventBus\src\main\java\de\greenrobot\event\SubscriberMethod.java
+* eventBus\src\main\java\de\greenrobot\event\SubscriberMethodFinder.java
+* eventBus\src\main\java\de\greenrobot\event\Subscription.java
+* eventBus\src\main\java\de\greenrobot\event\ThreadMode.java
+* eventBus\src\main\java\de\greenrobot\event\util\
+* eventBus\src\main\java\de\greenrobot\event\util\AsyncExecutor.java
+* eventBus\src\main\java\de\greenrobot\event\util\ErrorDialogConfig.java
+* eventBus\src\main\java\de\greenrobot\event\util\ErrorDialogFragmentFactory.java
+* eventBus\src\main\java\de\greenrobot\event\util\ErrorDialogFragments.java
+* eventBus\src\main\java\de\greenrobot\event\util\ErrorDialogManager.java
+* eventBus\src\main\java\de\greenrobot\event\util\ExceptionToResourceMapping.java
+* eventBus\src\main\java\de\greenrobot\event\util\ThrowableFailureEvent.java
+* eventBus\src\main\res\
+* eventBus\src\main\res\values\
+* eventBus\src\main\res\values\strings.xml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+* vhxdemo\
+* vhxdemo\build.gradle
+* vhxdemo\src\
+* vhxdemo\src\main\
+* vhxdemo\src\main\AndroidManifest.xml
+* vhxdemo\src\main\java\
+* vhxdemo\src\main\java\com\
+* vhxdemo\src\main\java\com\lg\
+* vhxdemo\src\main\java\com\lg\updater\
+* vhxdemo\src\main\java\com\lg\updater\AndroidApkUpdater.java
+* vhxdemo\src\main\java\com\vanch\
+* vhxdemo\src\main\java\com\vanch\vhxdemo\
+* vhxdemo\src\main\java\com\vanch\vhxdemo\AccessUI.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\CommandCode.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\ConfigParam.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\ConfigPreference.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\ConfigUI.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\Epc.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\HandsetParam.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\HandsetVersion.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\Head.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\InventoryUI.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\LinkUi.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\MainActivity.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\Status.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\TimeoutException.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\ToolUI.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\VH73Device.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\helper\
+* vhxdemo\src\main\java\com\vanch\vhxdemo\helper\BluetoothHelper.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\helper\MyAlertDialogFragment.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\helper\Test.java
+* vhxdemo\src\main\java\com\vanch\vhxdemo\helper\Utility.java
+* vhxdemo\src\main\java\lab\
+* vhxdemo\src\main\java\lab\sodino\
+* vhxdemo\src\main\java\lab\sodino\language\
+* vhxdemo\src\main\java\lab\sodino\language\util\
+* vhxdemo\src\main\java\lab\sodino\language\util\Strings.java
+* vhxdemo\src\main\res\
+* vhxdemo\src\main\res\drawable-hdpi\
+* vhxdemo\src\main\res\drawable-hdpi\Thumbs.db
+* vhxdemo\src\main\res\drawable-hdpi\bg_btn_normal.png
+* vhxdemo\src\main\res\drawable-hdpi\bg_btn_press.png
+* vhxdemo\src\main\res\drawable-hdpi\bg_tab_normal.9.png
+* vhxdemo\src\main\res\drawable-hdpi\btn.png
+* vhxdemo\src\main\res\drawable-hdpi\connected.png
+* vhxdemo\src\main\res\drawable-hdpi\disconnected.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_bluetooth.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_bluetooth_connected.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_bluetooth_search.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_btn.9.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_btn_press.9.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_expand.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_flash_off.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_launcher.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_radio_checked.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_radio_select.png
+* vhxdemo\src\main\res\drawable-hdpi\ic_radio_unchecked.png
+* vhxdemo\src\main\res\drawable-hdpi\input.9.png
+* vhxdemo\src\main\res\drawable-hdpi\inventory_press.png
+* vhxdemo\src\main\res\drawable-hdpi\inventory_pressed.png
+* vhxdemo\src\main\res\drawable-hdpi\stop_press.png
+* vhxdemo\src\main\res\drawable-hdpi\stop_pressed.png
+* vhxdemo\src\main\res\drawable-ldpi\
+* vhxdemo\src\main\res\drawable-ldpi\Thumbs.db
+* vhxdemo\src\main\res\drawable-ldpi\ic_bluetooth.png
+* vhxdemo\src\main\res\drawable-ldpi\ic_bluetooth_connected.png
+* vhxdemo\src\main\res\drawable-ldpi\ic_bluetooth_search.png
+* vhxdemo\src\main\res\drawable-mdpi\
+* vhxdemo\src\main\res\drawable-mdpi\bg_input.9.png
+* vhxdemo\src\main\res\drawable-mdpi\ic_bluetooth.png
+* vhxdemo\src\main\res\drawable-mdpi\ic_bluetooth_connected.png
+* vhxdemo\src\main\res\drawable-mdpi\ic_launcher.png
+* vhxdemo\src\main\res\drawable-mdpi\light_off.9.png
+* vhxdemo\src\main\res\drawable-mdpi\light_on.9.png
+* vhxdemo\src\main\res\drawable-xhdpi\
+* vhxdemo\src\main\res\drawable-xhdpi\ic_bluetooth.png
+* vhxdemo\src\main\res\drawable-xhdpi\ic_bluetooth_connected.png
+* vhxdemo\src\main\res\drawable-xhdpi\ic_bluetooth_search.png
+* vhxdemo\src\main\res\drawable-xhdpi\ic_launcher.png
+* vhxdemo\src\main\res\drawable-xhdpi\ic_off.png
+* vhxdemo\src\main\res\drawable-xhdpi\ic_on.png
+* vhxdemo\src\main\res\drawable-xhdpi\ic_unnormal.png
+* vhxdemo\src\main\res\drawable-xxhdpi\
+* vhxdemo\src\main\res\drawable-xxhdpi\ic_launcher.png
+* vhxdemo\src\main\res\drawable\
+* vhxdemo\src\main\res\drawable\Thumbs.db
+* vhxdemo\src\main\res\drawable\acm_inputbox.9.png
+* vhxdemo\src\main\res\drawable\bg_btn.xml
+* vhxdemo\src\main\res\drawable\bg_edittext.xml
+* vhxdemo\src\main\res\drawable\bg_edittext_disable.xml
+* vhxdemo\src\main\res\drawable\bg_edittext_focused.xml
+* vhxdemo\src\main\res\drawable\bg_edittext_normal.xml
+* vhxdemo\src\main\res\drawable\btn_selector.xml
+* vhxdemo\src\main\res\drawable\color_tab_selected.xml
+* vhxdemo\src\main\res\drawable\edittext_background.9.png
+* vhxdemo\src\main\res\drawable\input_bar_bg.9.png
+* vhxdemo\src\main\res\drawable\inventory_btn_press.xml
+* vhxdemo\src\main\res\drawable\radio_selected.xml
+* vhxdemo\src\main\res\drawable\spinner_selector.xml
+* vhxdemo\src\main\res\drawable\stop_btn_press.xml
+* vhxdemo\src\main\res\drawable\tab_bg.xml
+* vhxdemo\src\main\res\drawable\tb.png
+* vhxdemo\src\main\res\drawable\txt_bg.9.png
+* vhxdemo\src\main\res\layout-normal-hdpi\
+* vhxdemo\src\main\res\layout-normal-hdpi\access.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\access_data.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\access_location.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\activity_main.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\config.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\device_list_item.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\fff.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\inventory.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\inventory_item_list.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\link.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\power.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\status.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\testtab.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\tool.xml
+* vhxdemo\src\main\res\layout-normal-hdpi\tool_location.xml
+* vhxdemo\src\main\res\menu\
+* vhxdemo\src\main\res\menu\main.xml
+* vhxdemo\src\main\res\values-sw600dp\
+* vhxdemo\src\main\res\values-sw600dp\dimens.xml
+* vhxdemo\src\main\res\values-sw720dp-land\
+* vhxdemo\src\main\res\values-sw720dp-land\dimens.xml
+* vhxdemo\src\main\res\values-v11\
+* vhxdemo\src\main\res\values-v11\styles.xml
+* vhxdemo\src\main\res\values-v14\
+* vhxdemo\src\main\res\values-v14\styles.xml
+* vhxdemo\src\main\res\values\
+* vhxdemo\src\main\res\values\dimens.xml
+* vhxdemo\src\main\res\values\radio_style.xml
+* vhxdemo\src\main\res\values\strings.xml
+* vhxdemo\src\main\res\values\strings_activity_config_freference.xml
+* vhxdemo\src\main\res\values\styles.xml
+* vhxdemo\src\main\res\values\url.xml
+* vhxdemo\src\main\res\xml\
+* vhxdemo\src\main\res\xml\chinese.xml
+* vhxdemo\src\main\res\xml\config.xml
+* vhxdemo\src\main\res\xml\english.xml
+* vhxdemo\src\main\res\xml\pref_data_sync.xml
+* vhxdemo\src\main\res\xml\pref_general.xml
+* vhxdemo\src\main\res\xml\pref_notification.xml
+* vhxdemo\src\main\resources\
+* vhxdemo\src\main\resources\.DS_Store
+* vhxdemo\src\main\resources\com\
+* vhxdemo\src\main\resources\com\.DS_Store
+* vhxdemo\src\main\resources\com\lg\
+* vhxdemo\src\main\resources\com\lg\.DS_Store
+* vhxdemo\src\main\resources\com\vanch\
+* vhxdemo\src\main\resources\com\vanch\.DS_Store
+* vhxdemo\src\main\resources\com\vanch\vhxdemo\
+* vhxdemo\src\main\resources\com\vanch\vhxdemo\.DS_Store
+* vhxdemo\src\main\resources\com\vanch\vhxdemo\codebak.txt
+* vhxdemo\src\main\resources\com\vanch\vhxdemo\helper\
+* vhxdemo\src\main\resources\com\vanch\vhxdemo\helper\.DS_Store
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In EventBus:
+* AndroidManifest.xml => eventBus\src\main\AndroidManifest.xml
+* assets\ => eventBus\src\main\assets
+* res\ => eventBus\src\main\res\
+* src\ => eventBus\src\main\java\
+In vhxdemo:
+* AndroidManifest.xml => vhxdemo\src\main\AndroidManifest.xml
+* assets\ => vhxdemo\src\main\assets
+* res\ => vhxdemo\src\main\res\
+* src\ => vhxdemo\src\main\java\
+* src\.DS_Store => vhxdemo\src\main\resources\.DS_Store
+* src\com\.DS_Store => vhxdemo\src\main\resources\com\.DS_Store
+* src\com\lg\.DS_Store => vhxdemo\src\main\resources\com\lg\.DS_Store
+* src\com\vanch\.DS_Store => vhxdemo\src\main\resources\com\vanch\.DS_Store
+* src\com\vanch\vhxdemo\.DS_Store => vhxdemo\src\main\resources\com\vanch\vhxdemo\.DS_Store
+* src\com\vanch\vhxdemo\codebak.txt => vhxdemo\src\main\resources\com\vanch\vhxdemo\codebak.txt
+* src\com\vanch\vhxdemo\helper\.DS_Store => vhxdemo\src\main\resources\com\vanch\vhxdemo\helper\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

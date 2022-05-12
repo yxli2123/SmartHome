@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_bluetooth_search.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-ldpi\\ic_bluetooth_search.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_bluetooth.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-ldpi\\ic_bluetooth.png"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_bluetooth_connected.png",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\drawable-ldpi\\ic_bluetooth_connected.png"
+    }
+]

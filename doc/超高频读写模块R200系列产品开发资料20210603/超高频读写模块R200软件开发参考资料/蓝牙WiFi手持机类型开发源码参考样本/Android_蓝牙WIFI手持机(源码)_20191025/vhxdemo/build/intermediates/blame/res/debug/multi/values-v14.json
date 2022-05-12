@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 228,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 376
+                    }
+                }
+            }
+        ]
+    }
+]

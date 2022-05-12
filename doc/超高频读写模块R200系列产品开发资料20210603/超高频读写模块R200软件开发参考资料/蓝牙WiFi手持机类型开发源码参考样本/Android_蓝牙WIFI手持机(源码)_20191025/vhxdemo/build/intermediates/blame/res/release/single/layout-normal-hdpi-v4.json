@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\fff.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\fff.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\tool_location.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\tool_location.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\status.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\status.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\access_data.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\access_data.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\link.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\link.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\access_location.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\access_location.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\config.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\config.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\inventory_item_list.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\inventory_item_list.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\tool.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\tool.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\device_list_item.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\device_list_item.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\activity_main.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\access.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\access.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\power.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\power.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\inventory.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\inventory.xml"
+    },
+    {
+        "merged": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\build\\intermediates\\res\\merged\\release\\layout-normal-hdpi-v4\\testtab.xml",
+        "source": "G:\\Javab\\project\\androidstudio\\vhxdemooutput\\vhxdemo\\src\\main\\res\\layout-normal-hdpi\\testtab.xml"
+    }
+]

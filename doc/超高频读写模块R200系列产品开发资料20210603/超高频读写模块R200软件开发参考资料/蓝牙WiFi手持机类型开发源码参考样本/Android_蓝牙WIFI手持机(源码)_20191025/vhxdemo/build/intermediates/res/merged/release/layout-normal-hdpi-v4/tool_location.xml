@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_location_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonusbinit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/spinner_epc"
+        android:text="@string/title_tool_location"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff00ff" />
+
+    <TextView
+        android:id="@+id/txt_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_epc"
+        android:layout_alignTop="@+id/spinner_epc"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/status_detect"
+        android:gravity="center"
+        android:text="@string/detect"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/status_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txt_detect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/txt_detect"
+        android:layout_below="@+id/txt_location_title"
+        android:contentDescription="@string/content_description_detect_status"
+        android:src="@drawable/ic_off" />
+
+    <Spinner
+        android:id="@+id/spinner_epc"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_location_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/txt_detect"
+        android:entries="@array/usbdevicelist" />
+
+    <Button
+        android:id="@+id/buttonusbinit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_epc"
+        android:layout_alignParentTop="true"
+        android:background="#8080FF"
+        android:text="@string/usblist" />
+
+    <Button
+        android:id="@+id/buttonusbconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/buttonusbinit"
+        android:background="#008000"
+        android:text="@string/usbConnect" />
+
+    <Button
+        android:id="@+id/buttonusbdisconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/buttonusbconnect"
+        android:background="#FF0000"
+        android:text="@string/usbDisconnect" />
+
+</RelativeLayout>

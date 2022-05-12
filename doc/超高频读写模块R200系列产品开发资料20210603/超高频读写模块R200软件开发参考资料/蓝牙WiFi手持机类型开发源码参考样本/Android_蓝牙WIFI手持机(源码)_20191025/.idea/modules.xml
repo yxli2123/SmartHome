@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eventBus/eventBus.iml" filepath="$PROJECT_DIR$/eventBus/eventBus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vhxdemo/vhxdemo.iml" filepath="$PROJECT_DIR$/vhxdemo/vhxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vhxdemooutput.iml" filepath="$PROJECT_DIR$/vhxdemooutput.iml" />
+    </modules>
+  </component>
+</project>
