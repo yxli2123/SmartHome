@@ -41,7 +41,10 @@ void setup() {
   wifi_connect();
   homekit_storage_reset();
   my_homekit_setup();
-  pinMode(D5, OUTPUT);  // Set Pin D5 to output mode
+  pinMode(D0, OUTPUT);  // Set Pin D0 to output mode, for ENA on L298N
+  pinMode(D1, OUTPUT);  // Set Pin D1 to output mode, for IN1 on L298N
+  pinMode(D2, OUTPUT);  // Set Pin D2 to output mode, for IN2 on L298N
+  pinMode(D3, INPUT);   // Set Pin D3 to input mode. Monitor the current in the motor
 }
 
 void loop() {
@@ -60,7 +63,7 @@ extern "C" homekit_characteristic_t cha_lock_current_state;
 extern "C" homekit_characteristic_t cha_lock_target_state;
 
 static uint32_t next_heap_millis = 0;
-
+uint8_t did_lock = 0;
 
 // called when the lock-mechanism target-set is changed by iOS Home APP
 void set_lock(const homekit_value_t value) {
@@ -108,12 +111,20 @@ void my_homekit_loop() {
 /* use this functions to let your lock mechanism do whatever yoi want */
 void open_lock(){
   Serial.println("unsecure");
-  // add your code here eg switch a relay or whatever 
+
 }
 
 void close_lock(){
   Serial.println("secure");
-  // Do...
-  digitalWrite(D5, HIGH);    // Turn the moter on
-  
+
+  int th = 512; // threshold if the load is to heavy
+  if (did_lock == 0){
+    while(analogRead(analogInPin) < th) { // Turn on the motor when the load is low (hasn't closed)
+      digitalWrite(D0, HIGH);  // Enable ENA
+      digitalWrite(D1, LOW); digitalWrite(D2, HIGH);  // Clockwise rotation
+      //digitalWrite(D1, HIGH); digitalWrite(D2, LOW);  // Counterclockwise rotation
+      delay(100)
+    }
+    digitalWrite(D0, LOW);  // Disable ENA. Turn off the motor
+  }
 }
